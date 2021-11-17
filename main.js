@@ -14,7 +14,7 @@ if(!confirm("Do you want to add more items?")){
 let totalPrice=0;
 
 for(let i =0;i<items.length;i++){
-    console.log(`${items[i]}  ${price[i]}`)
+    console.log(`${items[i]}  £${price[i]}`)
     totalPrice+=price[i]
 }
-console.log(`Total price is: ${totalPrice}`)
+console.log(`Total price is: £${totalPrice}`)
