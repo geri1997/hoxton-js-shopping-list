@@ -17,4 +17,4 @@ for(let i =0;i<items.length;i++){
     console.log(`${items[i]}  ${price[i]}`)
     totalPrice+=price[i]
 }
-console.log(totalPrice)
+console.log(`Total price is: ${totalPrice}`)
